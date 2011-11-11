@@ -1,5 +1,5 @@
 .x-cp-rgbpicker {
-	background-image: url(mask.png);
+	background-image: url(../images/mask.png);
 	background-repeat: no-repeat;
 	background-color: red;
 	width: 182px;
@@ -18,7 +18,7 @@
 	top: -7px;
 	width: 15px;
 	height: 15px;
-	background-image: url(slider-rgb.gif) !important;
+	background-image: url(../images/slider-rgb.gif) !important;
 	background-repeat: no-repeat;
 	cursor: pointer;
 	/*_cursor: hand;*/
@@ -28,7 +28,7 @@
 	width: 9px;
 	float: left;
 	margin: 7px 0 0 7px;
-	background-image: url(hue.png) !important;
+	background-image: url(../images/hue.png) !important;
 	background-repeat: no-repeat;
 	cursor: pointer;
 	/*_cursor: hand;*/
@@ -39,7 +39,7 @@
 	top: -7px;
 	width: 15px;
 	height: 15px;
-	background-image: url(slider-rgb.gif) !important;
+	background-image: url(../images/slider-rgb.gif) !important;
 	background-repeat: no-repeat;
 	cursor: pointer;
 	/*_cursor: hand;*/

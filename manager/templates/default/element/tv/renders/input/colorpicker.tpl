@@ -1,4 +1,4 @@
-<link rel="stylesheet" href="{$assets_url}/components/colorpicker/colorpicker.css" />
+<link rel="stylesheet" href="{$assets_url}/components/colorpicker/css/colorpicker.css" />
 
 <input id="tv{$tv->id}" type="text"
 	value="{$tv->value}" name="tv{$tv->id}"

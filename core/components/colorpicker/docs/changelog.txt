@@ -1,0 +1,9 @@
+Changelog for ColorPicker
+
+ColorPicker 1.0.0-rc1 (November 11, 2011)
+======================================
+Packaged for Revo
+
+ColorPicker 1.0.0-beta1 (May 12, 2011)
+======================================
+Initial Version
