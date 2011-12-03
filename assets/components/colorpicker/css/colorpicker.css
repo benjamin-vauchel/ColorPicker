@@ -46,7 +46,7 @@
 }
 .x-cp-formcontainer {
 	float: left;
-	width: 116px;
+	width: 170px;
 	padding: 2px;
 	border: none;
 	margin: -24px 0 0 7px !important;
@@ -67,4 +67,5 @@
 }
 .x-cp-formcontainer input {
 	text-align: center;
+	min-width: 28px !important;
 }
