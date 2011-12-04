@@ -10,7 +10,7 @@ function cleanKeyForSmarty($key)
 } 
 $modx->getService('lexicon','lexicon.modLexicon');
 $modx->lexicon->load('colorpicker:default');
-$_lang = $modx->lexicon->fetch();
+$_lang = $modx->lexicon->fetch('colorpicker');
 $_lang = array_combine(array_map('cleanKeyForSmarty', array_keys($_lang)), array_values($_lang));
 $modx->smarty->assign('_lang', $_lang);
 
