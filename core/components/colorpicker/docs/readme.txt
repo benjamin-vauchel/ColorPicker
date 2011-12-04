@@ -1,7 +1,7 @@
 --------------------
 Snippets: ColorPicker
 --------------------
-Version: 1.0.1-rc1
+Version: 1.0.1-rc2
 Released: December 4, 2011
 Since: May 12, 2011
 Author: Benjamin Vauchel <contact@omycode.fr>
