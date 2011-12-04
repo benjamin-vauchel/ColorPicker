@@ -1,5 +1,11 @@
 Changelog for ColorPicker
 
+ColorPicker 1.0.1-rc1 (December 4, 2011)
+======================================
+Add english and french lexicons
+Add output options : Hex, RGB, HSL in CSS or JSON
+Fix the inputs width of colorpicker
+
 ColorPicker 1.0.0-rc1 (November 11, 2011)
 ======================================
 Packaged for Revo
