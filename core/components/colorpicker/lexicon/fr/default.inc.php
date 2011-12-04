@@ -31,13 +31,13 @@
  * (e.g. error messages, prompts, etc.).
  */
 $_lang['colorpicker'] = 'ColorPicker';
-$_lang['colorpicker.description'] = 'Color Picker for MODx Revolution';
-$_lang['colorpicker.format'] = 'Color format';
-$_lang['colorpicker.format.description'] = 'The CSS color format';
+$_lang['colorpicker.description'] = 'Sélecteur de couleur pour MODx Revolution';
+$_lang['colorpicker.format'] = 'Format';
+$_lang['colorpicker.format.description'] = 'Format de couleur CSS';
 $_lang['colorpicker.format.hex'] = 'Hexadecimal';
 $_lang['colorpicker.format.rgb'] = 'RGB';
 $_lang['colorpicker.format.hsl'] = 'HSL';
-$_lang['colorpicker.output'] = 'Output';
-$_lang['colorpicker.output.description'] = 'Output CSS => rgb(255,255,255) or  output JSON => {255,255,255}';
+$_lang['colorpicker.output'] = 'Affichage';
+$_lang['colorpicker.output.description'] = 'Exemples d\'affichage CSS => #FFFFFF ou rgb(255,255,255) ou hsl(1,1,1). Exemple d\'affichage JSON => {"FF","FF","FF"} ou {255,255,255} ou {1,1,1}';
 $_lang['colorpicker.output.css'] = 'CSS';
 $_lang['colorpicker.output.json'] = 'JSON';
