@@ -23,7 +23,7 @@ if (strlen($hex) == 6)
 		case 'hex':
 			if($params['color_output'] == 'json')
 	        {
-			    $output = json_encode(array(intval(substr($hex, 0, 2)), intval(substr($hex, 2, 2)), intval(substr($hex, 4, 2))));
+			    $output = json_encode(array(substr($hex, 0, 2), substr($hex, 2, 2), substr($hex, 4, 2)));
 			}
 			else
 			{
