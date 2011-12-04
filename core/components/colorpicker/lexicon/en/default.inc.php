@@ -38,6 +38,6 @@ $_lang['colorpicker.format.hex'] = 'Hexadecimal';
 $_lang['colorpicker.format.rgb'] = 'RGB';
 $_lang['colorpicker.format.hsl'] = 'HSL';
 $_lang['colorpicker.output'] = 'Output';
-$_lang['colorpicker.output.description'] = 'Example of CSS output => #FFFFFF ou rgb(255,255,255) ou hsl(1,1,1). Example of JSON output => {"FF","FF","FF"} ou {255,255,255} ou {1,1,1}';
+$_lang['colorpicker.output.description'] = 'Example of CSS output => #FFFFFF or rgb(255,255,255) or hsl(1,1,1). Example of JSON output => {"FF","FF","FF"} or {255,255,255} or {1,1,1}';
 $_lang['colorpicker.output.css'] = 'CSS';
 $_lang['colorpicker.output.json'] = 'JSON';
