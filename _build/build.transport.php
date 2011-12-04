@@ -31,7 +31,7 @@
 /* Set package info be sure to set all of these */
 define('PKG_NAME','ColorPicker');
 define('PKG_NAME_LOWER','colorpicker');
-define('PKG_VERSION','1.0.0');
+define('PKG_VERSION','1.0.1');
 define('PKG_RELEASE','rc1');
 define('PKG_CATEGORY','ColorPicker');
 
@@ -58,6 +58,9 @@ $sources= array (
     'docs' => $root . 'core/components/colorpicker/docs/',
     'tv_php'=> $root . 'core/model/modx/processors/element/tv/renders/mgr/input/colorpicker.php',
     'tv_tpl'=> $root . 'manager/templates/default/element/tv/renders/input/colorpicker.tpl',
+    'tv_properties_php'=> $root . 'core/model/modx/processors/element/tv/renders/mgr/properties/colorpicker.php',
+    'tv_output_php'=> $root . 'core/model/modx/processors/element/tv/renders/web/output/colorpicker.php',
+    'tv_properties_tpl'=> $root . 'manager/templates/default/element/tv/renders/properties/colorpicker.tpl',
 );
 unset($root);
 
@@ -122,6 +125,20 @@ $vehicle->resolve('file',array(
 $vehicle->resolve('file',array(
     'source' => $sources['tv_tpl'],
     'target' => "return MODX_BASE_PATH . 'manager/templates/default/element/tv/renders/input/';",
+));
+
+/* Add TV properties sources */
+$vehicle->resolve('file',array(
+    'source' => $sources['tv_properties_php'],
+    'target' => "return MODX_CORE_PATH . 'model/modx/processors/element/tv/renders/mgr/properties/';",
+));
+$vehicle->resolve('file',array(
+    'source' => $sources['tv_output_php'],
+    'target' => "return MODX_CORE_PATH . 'model/modx/processors/element/tv/renders/web/output/';",
+));
+$vehicle->resolve('file',array(
+    'source' => $sources['tv_properties_tpl'],
+    'target' => "return MODX_BASE_PATH . 'manager/templates/default/element/tv/renders/properties/';",
 ));
 
 /* This section transfers every file in the local 
