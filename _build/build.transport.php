@@ -32,7 +32,7 @@
 define('PKG_NAME','ColorPicker');
 define('PKG_NAME_LOWER','colorpicker');
 define('PKG_VERSION','1.0.1');
-define('PKG_RELEASE','rc1');
+define('PKG_RELEASE','rc2');
 define('PKG_CATEGORY','ColorPicker');
 
 /******************************************
