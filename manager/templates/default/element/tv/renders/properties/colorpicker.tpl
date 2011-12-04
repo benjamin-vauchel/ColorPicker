@@ -15,17 +15,19 @@ MODx.load({
     ,autoHeight: true
     ,labelWidth: 150
     ,border: false
+    ,labelAlign: 'top'
+    ,cls: 'form-with-labels'
     ,items: [
     {
         xtype: 'combo'
-        ,fieldLabel: 'Color format'
-        ,description: 'The CSS color format'
+        ,fieldLabel: '{/literal}{$_lang.colorpicker_format}{literal}'
+        ,description: '{/literal}{$_lang.colorpicker_format_description}{literal}'
         ,name: 'prop_color_format'
         ,hiddenName: 'prop_color_format'
         ,id: 'prop_color_format{/literal}{$tv}{literal}'
         ,store: new Ext.data.SimpleStore({
             fields: ['v','d']
-            ,data: [['hex','Hexadecimal'],['rgb','RGB'],['hsl','HSL']]
+            ,data: [['hex','{/literal}{$_lang.colorpicker_format_hex}{literal}'],['rgb','{/literal}{$_lang.colorpicker_format_rgb}{literal}'],['hsl','{/literal}{$_lang.colorpicker_format_hsl}{literal}']]
         })
         ,displayField: 'd'
         ,valueField: 'v'
@@ -39,14 +41,14 @@ MODx.load({
         ,width: 200
     },{
         xtype: 'combo'
-        ,fieldLabel: 'Output'
-        ,description: 'Output CSS => rgb(255,255,255) or  output JSON => {255,255,255}'
+        ,fieldLabel: '{/literal}{$_lang.colorpicker_output}{literal}'
+        ,description: '{/literal}{$_lang.colorpicker_output_description}{literal}'
         ,name: 'prop_color_output'
         ,hiddenName: 'prop_color_output'
         ,id: 'prop_color_output{/literal}{$tv}{literal}'
         ,store: new Ext.data.SimpleStore({
             fields: ['v','d']
-            ,data: [['css','CSS'],['json','JSON']]
+            ,data: [['css','{/literal}{$_lang.colorpicker_output_css}{literal}'],['json','{/literal}{$_lang.colorpicker_output_json}{literal}']]
         })
         ,displayField: 'd'
         ,valueField: 'v'
